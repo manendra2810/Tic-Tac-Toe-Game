@@ -1,0 +1,149 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #00595a;
+}
+
+h1{
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.gameBtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50vmin;
+    height: 50vmin;
+    gap: 1.5vmin;
+}
+
+.btn{
+    height: 15vmin;
+    width: 15vmin;
+    color: #b0413e;
+    background-color: #ffff83;
+    font-size: 3rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.resetBtn{
+    background-color: #073131;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.popUpContainer{
+    margin-top: 2rem;
+    
+}
+
+.newGameBtn{
+    background-color: #073131;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.msg{
+    font-size: 2rem;
+    color: #00ff00;
+}
+
+.hide{
+    display: none;
+} */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background-color: #548687;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.btn{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffff83;
+    cursor: pointer;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.msg-container{
+    height: 30vmin;
+}
+
+.msg{
+    margin: 5vmin;
+    color: #ffff83;
+    font-size: 5vmin;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
